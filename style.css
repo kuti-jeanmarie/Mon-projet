@@ -1,0 +1,207 @@
+css
+.header{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo{
+  font-size: 30px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: rgb(168, 1, 118);
+}
+.logo span{
+    color:rgb(158, 55, 55);
+}
+
+.navbar {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  align-items: center;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+.nav-links a:hover{
+    background-color: rgb(214, 189, 47);
+    padding: 3px 5px;
+}
+
+.menu-toggle {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 100%;
+  background-color:rgb(160, 154, 154);
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    border: 1px solid #333;
+    /*background-color: #9c9b9b;*/
+    text-transform: capitalize;
+    position:absolute;
+    top: 60px;
+    right: 15px;
+    width: 200px;
+    border-radius: 10px;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display:block;
+
+  }
+}
+.yaya{
+    font-size: 1.8rem;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 15%;
+    color: blue;
+}
+.yaya p{
+    font-size: 1.3rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: -17px;
+}
+.btn{
+    text-decoration: none;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+.image{
+    background-image:url(/image/chambre\ tokos.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+}
+
+
+/* ici c'est pour la disposition des deux chambres simple et vip*/
+.chambres{
+    display: flex;
+    padding: 20px;
+    justify-content:space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+/*ici c'est pour reduire la taille de l'image*/
+.chambres img {
+    width:120%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    text-align: center;
+}
+/* ici c'est pour permettre a notre images de faire le mouvement*/
+.chambre:hover{
+    transform: translateY(-5px);
+}
+/* ici c'est pour notre le titre (equipement) */
+h2{
+    font-size: 2.2rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.services{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem; /*ici c pour donner l'espace dans nos differents service*/
+    justify-content: center;
+}
+
+/* ici c pour nos service */
+.service-card{
+    background-color: #e4dfdf;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease;/*ici c pou que quand l'element monte ca puisse decendre avec rapidite*/
+}
+/* ca permet de faire monter les images*/ 
+.service-card:hover{
+    transform: translateY(-10px);
+}
+/* ici c'est pour reduire les images de service*/
+.service-card img{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 1rem;
+}
+/*ici c'est pour les titre que nous trouvons dans nos services ex: wifi, television,bureau et ...*/
+.service-card h3{
+    margin-bottom: 0.15rem;
+    color: #4e4e4e;
+}
+/* ici c'est pour les phrases que nous trouvons dans le dessous de titre de nos services*/
+.service-card p{
+    font-size: 0.95rem;
+    color: #555;
+}
+/* ici c'est pour donner la forme au titre qui se trouve dans notre footer ex: adresse et contact*/
+footer h4{
+    text-align: center;
+    font-size: 30px;
+}
+/* ici c'est pour la couleur blanche que nos ecrits porte et L'encadrement noir*/
+footer{
+    background-color: rgb(87, 74, 74);
+    color: #cac9c9;
+    border-radius: 10px;
+}
+/* ici c'est pour les phrases qui se trouve dans le footer ex: commune,quartier,numero,mail...*/
+footer p{
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/*ici c pour donner la forme dans les image que nous trouvons dans le footer ex: facebook,youtube,whatsapp*/
+.audios{
+    display: flex;
+    justify-content:center;
+    margin-left: 5%;
+    align-items: center;
+    background-position: center;
+
+}
+/* ici c pour reduire la taille des images que nous trouvons dans le footer*/
+.audio img{
+    margin: 0%;
+    padding: 0%;
+    margin-left: 10PX;
+    width: 40px;
+    border-radius: 10px;
+    
+
+}
+.VIE{
+    font-family:serif;
+}

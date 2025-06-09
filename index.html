@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SEJOUR CHIC CHEZ KUTI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="image">
+        <header>
+            <nav class="navbar">
+            <div class="logo">SEJOUR CHIC CHEZ KUTI</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#apropos">A propos</a></li>
+                <li><a href="#chambre">chambre</a></li>
+                <li><a href="#reservation">reservation</a></li>
+            </ul>
+            <div class="menu-toggle" id="menuToggle">☰</div>
+            </nav>
+        </header>
+        <div class="yaya">
+            <section id="accueil">
+                <h1>SEJOUR CHIC CHEZ KUTI</h1>
+                <P><span>Bienvenu(e) dans notre Hotel cher(e) passagé(e)</span></P>
+                <a href="#reservation.html" class="btn">reserver maintenant</a>
+            </section>
+        </div>
+    </div>
+
+    <section id="apropos">
+        <h2>A propos</h2>
+        <p>
+             Bienvenue sur <span>Séjour Chic Chez Kuti,</span> votre plateforme de réservation de chambres d'hôtel en ligne!
+             Nous vous offrons un service simple, rapide et sécurisé pour réserver votre séjour en toute tranquilité. 
+
+             Notre objectif est de rendre vos déplacements plus agréables, que ce soit pour un voyage d'affaires, des vacances ou un week-end détente. Nous vous proposons des chambres élégantes, confortables et bien équipées, dans un cadre chaleureux et accueillant.
+             <br><span>pourquoi choisir Séjour Chic Chez Kuti ?</span><br>
+             ✅Réservation facile en ligne <br>
+             🛏️Chambres confortables et bien entretenues <br>
+             📅Disponibilité à jour et gestion souple des dates <br>
+             🗒️Équipe à l'écoute etb  service client réacrif <br>
+             🔐Paiement en ligne sécurisé <br>
+             Avec Séjour Chic Chez Kuti, Chaque séjour devient une expérience agréeable et chic. Réserver dès maintenant et laissez-nous vous offrir le confort que vous méritez!à
+        </p>
+        
+    </section>
+    <section id="chambre">
+        <h2> voici nos chambres </h2>
+        <div class="chambres">
+            <div class="chambre">
+                <img src="./image/pexels-gaurav-sood-1109267-4427020.jpg" alt="chambre-simple">
+                <h3>chambre-simple</h3>
+                <p>$30.00/nuit  $15.00/jour</p>
+                <a href="reservation.html? type=simple">
+                    <button>reservation</button>
+                </a>
+            </div>
+            <div class="chambre">
+                <img src="./image/pexels-curtis-adams-1694007-12700518.jpg" alt="chambre-vip">
+                <h3>chambre-vip</h3>
+                <p>$40.00/nuit  $20.00/jour</p>
+                <a href="resrvation.html? type=vip">
+                    <button>Reservation</button>
+                </a>
+            </div>
+            <div class="chambre">
+                <img src="./image/pexels-hakimsatoso-3634741.jpg" alt="chambre-vip">
+                <h3>chambre-vvip</h3>
+                <p>$10.00/nuit  $55.00/jour</p>
+            </div>
+        </div>
+        <hr>
+        <section class="section">
+            <h2>Nos Equipements</h2>
+            <div class="services">
+                <div class="service-card">
+                    <img src="./image/tv.png" alt="tv">
+                    <h3>television</h3>
+                    <p>television gratuite avec plus de 100 chaines pour vous distraire au cas de repos</p>
+                </div>
+                <div class="service-card">
+                    <img src="./image/desk.png" alt="bureau">
+                    <h3>bureau</h3>
+                    <p>un bureau de travail est reserve gratuitement</p>
+                </div>
+                <div class="service-card">
+                    <img src="./image/wifi.png" alt="wifi">
+                    <h3>wifi</h3>
+                        
+                    <p>une connexion internet gratuite pour vous faciliter de bien faire des recherches</p>
+                </div>
+                <div class="service-card">
+                    <img src="./image/refrigerator.png" alt="refrigerateur">
+                    <h3>refrigerateur</h3>
+                    <p>un refrigerateur gratuit pour concerver vos aliments</p>
+                </div>
+            </div>
+        </section><br><br>
+    </section>
+
+    <section id="reservation">
+        <h2>Réservation</h2>
+        <form>
+            <label for="nom">Nom Complet :</label><br>
+            <input type="nom" id="nom" placeholder="répond ici"><br><br>
+            <label for="Email">Entrez votre email :</label><br>
+            <input type="mail" id="email" placeholder="reponse ici"><br><br>
+            <label for="telephone">Tapez votre numéro :</label><br>
+            <input type="telephone" id="number" placeholder="num ici..."><br><br>
+            <label for="date_d'arriver">Date et heure d'arriver :</label><br>
+            <input type="datetime-local" id="date_d'arriver" name="date_d'arriver"><br><br>
+            <label for="date_de_depat">Date et heure de depart :</label><br>
+            <input type="datetime-local" id="date_de_depart" name="date_de_depat"><br><br>
+            <label for="nb_personne">Nombre de personnes :</label><br>
+            <input type="number" id="nb_personne" name="nb_personne" min="1" max="5"><br><br>
+            <label for="type_chambre">Type de chammbre :</label> <br>
+            <select name="type_chambre" id="type_chambre">
+                <option value=""> -- Sélectionnez --</option>
+                <option value="Chambre-simlpe">Chambre-simple</option>
+                <option value="Chambre-vip">Chambre-vip</option>
+                <option value="Chambre-vvip">Chambre-vvip</option>
+            </select>
+        </form>
+    </section><br><br>
+    <footer>
+        <br><br>
+        <h4>Adresse</h4>
+        <p>avenue kikwit N°22 <br> Quartier manenga <br> Commune de ngaliema </p>
+        <div class="audios">
+            <div class="audio">
+                <img src="./image/Facebook.jpg" alt="facebook">
+            </div>
+            <div class="audio">
+                <img src="./image/WhatsAp.jpg" alt="whatsap">
+            </div>
+            <div class="audio">
+                <img src="./image/youtube.jpg" alt="youtube">
+            </div>
+        </div>
+        <h4>Contactez-nous</h4>
+        <p>+243 818261181 <br> +243 899611727 <br> Mail sejourchicchezkuti@gmail.com</p>
+        <hr>
+        <p class="VIE">copyright 2024-sejour chic chez kuti par <br>kuti mbenga jean marie</p>
+        <br>
+    </footer>
+</body>
+</html>
+<script>
+    // JS simple pour le menu mobile
+    document.getElementById('menuToggle').onclick = function () {
+      document.getElementById('navLinks').classList.toggle('active');
+    };
+  </script>
+  </html>
