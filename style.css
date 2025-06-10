@@ -76,7 +76,7 @@ css
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-top: 15%;
-    color: blue;
+    color: rgb(79, 79, 170);
 }
 .yaya p{
     font-size: 1.3rem;
@@ -85,7 +85,7 @@ css
 }
 .btn{
     text-decoration: none;
-    background-color: #007BFF;
+    background-color: #306094;
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
@@ -165,6 +165,23 @@ h2{
     font-size: 0.95rem;
     color: #555;
 }
+
+form{
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #000;
+    padding: 20px;
+    width: 300px;
+    background-color: white;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form label{
+    display: block;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
 /* ici c'est pour donner la forme au titre qui se trouve dans notre footer ex: adresse et contact*/
 footer h4{
     text-align: center;
@@ -176,6 +193,7 @@ footer{
     color: #cac9c9;
     border-radius: 10px;
 }
+
 /* ici c'est pour les phrases qui se trouve dans le footer ex: commune,quartier,numero,mail...*/
 footer p{
     text-align: center;
