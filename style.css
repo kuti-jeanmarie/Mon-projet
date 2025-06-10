@@ -92,7 +92,7 @@ css
     display: inline-block;
 }
 .image{
-    background-image:url(/image/chambre\ tokos.jpg);
+    background-image:url(./image/chambre\ tokos.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
