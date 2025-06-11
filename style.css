@@ -193,9 +193,6 @@ form input[type="submit"]{
     margin-right: auto;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-form .btn{
-    text-align: center;
-}
 
 /* ici c'est pour donner la forme au titre qui se trouve dans notre footer ex: adresse et contact*/
 footer h4{
