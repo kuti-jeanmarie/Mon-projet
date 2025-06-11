@@ -6,7 +6,7 @@ css
 }
 
 .logo{
-  font-size: 30px;
+  font-size: 25px;
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: rgb(168, 1, 118);
 }
@@ -72,11 +72,11 @@ css
   }
 }
 .yaya{
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin-top: 15%;
-    color: rgb(79, 79, 170);
+    margin-top: 25%;
+    color: rgb(202, 70, 191);
 }
 .yaya p{
     font-size: 1.3rem;
@@ -84,11 +84,13 @@ css
     margin-top: -17px;
 }
 .btn{
+    font-size: 20px;
     text-decoration: none;
-    background-color: #306094;
+    border: 2px solid white;
+    /*background-color: #306094;*/
     color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
+    padding: 7px 14px;
+    border-radius: 50px;
     display: inline-block;
 }
 .image{
@@ -185,13 +187,16 @@ form input[type="submit"]{
     font-size: 20px;
     color: white;
     text-align: center;
-    background-color: chartreuse;
+    background-color: rgb(109, 189, 28);
     border: solid white;
     border-radius: 50px;
     padding: 5px 10px;
     margin-left: 0;
     margin-right: auto;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+form input{
+    background-color: #e2e0e0;
 }
 
 /* ici c'est pour donner la forme au titre qui se trouve dans notre footer ex: adresse et contact*/
@@ -203,7 +208,7 @@ footer h4{
 footer{
     background-color: rgb(87, 74, 74);
     color: #cac9c9;
-    border-radius: 10px;
+    border-radius: 2px;
 }
 
 /* ici c'est pour les phrases qui se trouve dans le footer ex: commune,quartier,numero,mail...*/
@@ -228,7 +233,7 @@ footer p{
     padding: 0%;
     margin-left: 10PX;
     width: 40px;
-    border-radius: 10px;
+    border-radius: 5px;
     
 
 }
