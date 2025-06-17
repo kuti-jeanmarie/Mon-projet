@@ -76,7 +76,7 @@ css
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-top: 25%;
-    color: rgb(202, 70, 191);
+    color: rgb(252, 252, 252);
 }
 .yaya p{
     font-size: 1.3rem;
@@ -94,7 +94,7 @@ css
     display: inline-block;
 }
 .image{
-    background-image:url(./image/chambre\ tokos.jpg);
+    background-image:url(./image/chambre\ accueil.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
