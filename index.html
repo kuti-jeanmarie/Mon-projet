@@ -12,40 +12,23 @@
             <nav class="navbar">
             <div class="logo">SEJOUR CHIC CHEZ KUTI</div>
             <ul class="nav-links" id="navLinks">
-                <li><a href="#accueil">Accueil</a></li>
-                <li><a href="#apropos">A propos</a></li>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="apropos.html">A propos</a></li>
                 <li><a href="#chambre">chambre</a></li>
-                <li><a href="#reservation">reservation</a></li>
+                <li><a href="reservation.html">Réservation</a></li>
             </ul>
             <div class="menu-toggle" id="menuToggle">☰</div>
             </nav>
         </header>
-        <div class="yaya">
+        <div class="Accueil">
             <section id="accueil">
                 <h1>Bienvenue dans notre site</h1>
                 <P>votre plateforme de réservation de chambre d'hôtel en ligne !</P>
-                <a href="#reservation" class="btn">Reserver maintenant</a>
+                <a href="reservation.html" class="btn">Reserver maintenant</a>
             </section>
         </div>
     </div>
 
-    <section id="apropos">
-        <h2>A propos</h2>
-        <p>
-             Bienvenue sur <span>Séjour Chic Chez Kuti,</span> votre plateforme de réservation de chambres d'hôtel en ligne!
-             Nous vous offrons un service simple, rapide et sécurisé pour réserver votre séjour en toute tranquilité. 
-
-             Notre objectif est de rendre vos déplacements plus agréables, que ce soit pour un voyage d'affaires, des vacances ou un week-end détente. Nous vous proposons des chambres élégantes, confortables et bien équipées, dans un cadre chaleureux et accueillant.
-             <br><span>pourquoi choisir Séjour Chic Chez Kuti ?</span><br>
-             ✅Réservation facile en ligne <br>
-             🛏️Chambres confortables et bien entretenues <br>
-             📅Disponibilité à jour et gestion souple des dates <br>
-             🗒️Équipe à l'écoute etb  service client réacrif <br>
-             🔐Paiement en ligne sécurisé <br>
-             Avec Séjour Chic Chez Kuti, Chaque séjour devient une expérience agréeable et chic. Réserver dès maintenant et laissez-nous vous offrir le confort que vous méritez!à
-        </p>
-        
-    </section>
     <section id="chambre">
         <h2> voici nos chambres </h2>
         <div class="chambres">
@@ -100,39 +83,6 @@
         </section><br><br>
     </section>
 
-    <section id="reservation">
-        <h2>Réservation</h2>
-        <form action="traitement.php" method="post">
-            <label for="nom">Nom Complet :</label><br>
-            <input type="nom" id="nom" name="nom" placeholder="répond ici ..."><br><br>
-
-            <label for="email">Entrez votre email :</label><br>
-            <input type="mail" id="email" name="email" placeholder="reponse ici ..."><br><br>
-
-            <label for="telephone">Tapez votre numéro :</label><br>
-            <input type="telephone" id="telephone" name="telephone" placeholder="num ici ..."><br><br>
-
-            <label for="date_heure_arriver">Date et heure d'arriver :</label><br>
-            <input type="date" id="date_heure_arrivee" name="date_heure_arrivee"><br><br>
-
-            <label for="date_heure_depat">Date et heure de depart :</label><br>
-            <input type="date" id="date_heure_depart" name="date_heure_depart"><br><br>
-
-            <label for="nb_personne">Nombre de personnes :</label><br>
-            <input type="number" id="nb_personne" name="nb_personne" min="1" max="5"><br><br>
-
-            <label for="type_chambre">Type de chammbre :</label> <br>
-            <select name="type_chambre" id="type_chambre">
-                <option value=""> -- Sélectionnez --</option>
-                <option value="Chambre-simlpe">Chambre-simple</option>
-                <option value="Chambre-vip">Chambre-vip</option>
-                <option value="Chambre-vvip">Chambre-vvip</option>
-            </select><br><br>
-
-            <input type="submit" value="ANNULER" name="ANNULER" style="background-color: brown;">
-            <input type="submit" value="ENVOYER" name="ANNULER">
-        </form>
-    </section><br><br>
     <footer>
         <br><br>
         <h4>Adresse</h4>
@@ -179,3 +129,4 @@
     };
   </script>
   </html>
+<script>

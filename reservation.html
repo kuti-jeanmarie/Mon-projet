@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Réservation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="">
+        <header>
+            <nav class="navbar">
+            <div class="logo">SEJOUR CHIC CHEZ KUTI</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="apropos.html">A propos</a></li>
+                <li><a href="chambre.html">chambre</a></li>
+                <li><a href="reservation.html">Réservation</a></li>
+            </ul>
+            <div class="menu-toggle" id="menuToggle">☰</div>
+            </nav>
+        </header>
+    </div>
+
+    <section>
+        <h1 style="text-align: center;">Réservation</h1>
+        <form action="traitement.php" method="post">
+            <label for="nom">Nom Complet :</label><br>
+            <input type="nom" id="nom" name="nom" placeholder="répond ici ..."><br><br>
+
+            <label for="email">Entrez votre email :</label><br>
+            <input type="mail" id="email" name="email" placeholder="reponse ici ..."><br><br>
+
+            <label for="telephone">Tapez votre numéro :</label><br>
+            <input type="telephone" id="telephone" name="telephone" placeholder="num ici ..."><br><br>
+
+            <label for="date_heure_arriver">Date et heure d'arriver :</label><br>
+            <input type="date" id="date_heure_arrivee" name="date_heure_arrivee"><br><br>
+
+            <label for="date_heure_depat">Date et heure de depart :</label><br>
+            <input type="date" id="date_heure_depart" name="date_heure_depart"><br><br>
+
+            <label for="nb_personne">Nombre de personnes :</label><br>
+            <input type="number" id="nb_personne" name="nb_personne" min="1" max="5"><br><br>
+
+            <label for="type_chambre">Type de chammbre :</label> <br>
+            <select name="type_chambre" id="type_chambre">
+                <option value=""> -- Sélectionnez --</option>
+                <option value="Chambre-simlpe">Chambre-simple</option>
+                <option value="Chambre-vip">Chambre-vip</option>
+                <option value="Chambre-vvip">Chambre-vvip</option>
+            </select><br><br>
+
+            <input type="submit" value="ANNULER" name="ANNULER" style="background-color: brown;">
+            <input type="submit" value="ENVOYER" name="ANNULER">
+        </form>
+    </section><br>
+
+    <footer>
+        <br><br>
+        <h4>Adresse</h4>
+        <p>avenue kikwit N°22 <br> Quartier manenga <br> Commune de ngaliema </p>
+        <div class="audios">
+            <div class="audio">
+                <a href="https://www.facebook.com/jeanmarie.kuti.7" target="_blank">
+                    <img src="./image/lite.jpg" alt="facebook">
+                </a>
+            </div>
+            <div class="audio">
+                <a href="https://wa.me/243899611727" target="_blank">
+                    <img src="./image/WhatsApp.jpg" alt="whatsap">
+                </a>
+            </div>
+            <div class="audio">
+                <a href="https://vm.tiktok.com/ZMS5k8t9C" target="_blank">
+                    <img src="./image/Tik tok.jpg" alt="tik tok">
+                </a>
+            </div>
+            <div class="audio">
+                <a href="https://www.snapchat.com/add/kutijeanmarie?share_id=2pOyH4cmwMQ&locale=fr-FRp" target="_blank">
+                    <img src="./image/Snapchat.jpg" alt="snapchat">
+                </a>    
+            </div>
+            <div class="audio">
+                <a href="tel:+243818261181">
+                    <img src="./image/4a2a781601cab65be12e5e3e2853238c.jpg" alt="appel">
+                </a>
+            </div>
+        </div>
+        <h4>Contactez-nous</h4>
+        <p>+243 818261181 <br> +243 899611727 <br> Mail sejourchicchezkuti@gmail.com</p>
+        <hr>
+        <p class="VIE">copyright 2024-sejour chic chez kuti par <br>kuti mbenga jean marie</p>
+        <br>
+    </footer>
+
+</body>
+</html>
+<script>
+    // JS simple pour le menu mobile
+    document.getElementById('menuToggle').onclick = function () {
+      document.getElementById('navLinks').classList.toggle('active');
+    };
+  </script>
+  </html>
+<script>
