@@ -4,7 +4,7 @@ css
   padding: 0;
   box-sizing: border-box;
 }
-
+/* ici c'est pour le logo qui se trouve dans notre page*/
 .logo{
   font-size: 25px;
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -13,7 +13,7 @@ css
 .logo span{
     color:rgb(158, 55, 55);
 }
-
+/*ici c'est pour le navbar (liste)*/
 .navbar {
   background-color: #333;
   color: #fff;
@@ -25,19 +25,23 @@ css
   font-size: 20px;
 }
 
+/*ici c'est pour enlever les decorations dans notre navbar*/
+
 .nav-links {
   list-style: none;
   display: flex;
   gap: 20px;
 }
-
+/*ici c'est pour mettre la couleur dans le liste et enlever les decorations*/
 .nav-links a {
   color: white;
   text-decoration: none;
 }
+/*ici c'est pour le style quand vous etes au dessus d'une liste et tu veux cliquer*/
 .nav-links a:hover{
     background-color: rgb(214, 189, 47);
     padding: 3px 5px;
+    border-radius: 5px;
 }
 
 .menu-toggle {
@@ -75,7 +79,7 @@ css
     font-size: 1.5rem;
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin-top: 25%;
+    margin-top: 20%;
     color: rgb(252, 252, 252);
 }
 .Accueil p{
@@ -98,7 +102,15 @@ css
     background-size: cover;
     background-position: center;
     height: 100vh;
-    
+    animation: bgZoom 20s infinite alternate;
+}
+@keyframes bgZoom {
+    0% {
+        background-size: 100%;
+    }
+    100% {
+        background-size: 110%;
+    }
 }
 
 
@@ -139,7 +151,7 @@ h2{
 
 /* ici c pour nos service */
 .service-card{
-    background-color: #e4dfdf;
+    background-color: #f1f1f1;
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     padding: 1.5rem;
@@ -172,7 +184,7 @@ form{
     margin: 60px auto;
     border: 2px solid #000;
     padding: 15px;
-    width: 400px;
+    width: 350px;
     background-color: white;
     border-radius: 8px;
     font-family: Arial, Helvetica, sans-serif;
