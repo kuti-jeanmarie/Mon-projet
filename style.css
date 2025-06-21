@@ -57,7 +57,7 @@ css
     display: none;
     flex-direction: column;
     border: 1px solid #333;
-    /*background-color: #9c9b9b;*/
+    background-color: #9c9b9b;
     text-transform: capitalize;
     position:absolute;
     top: 60px;
@@ -75,6 +75,8 @@ css
 
   }
 }
+
+/*ici c'est pour le h1 de l'accueil  bienvenue dans mon site*/
 .Accueil{
     font-size: 1.5rem;
     text-align: center;
@@ -82,21 +84,31 @@ css
     margin-top: 20%;
     color: rgb(252, 252, 252);
 }
+
+/*ici c'est pou le paramettre que nous trouvons dans l'accueil*/
 .Accueil p{
     font-size: 1.3rem;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: -17px;
 }
+
+/*ici C'est pour le bouton de reservation que nous trouvons dans L'accueil*/
 .btn{
     font-size: 20px;
     text-decoration: none;
     border: 2px solid white;
-    /*background-color: #306094;*/
     color: white;
     padding: 7px 14px;
     border-radius: 50px;
     display: inline-block;
 }
+
+/*ici également c'est toujours le bouton la pour signaler au cliseur qu'il est au dessus de bouton reserver...*/
+.btn:hover{
+    border: 2px solid rgb(143, 142, 142) ;
+}
+
+/*ici c'est pour l'image d'accueil*/
 .image{
     background-image:url(./image/chambre\ accueil.jpg);
     background-size: cover;
@@ -104,6 +116,9 @@ css
     height: 100vh;
     animation: bgZoom 20s infinite alternate;
 }
+
+
+/* l'animation pour le zoom d'image d'accueil*/
 @keyframes bgZoom {
     0% {
         background-size: 100%;
@@ -117,16 +132,16 @@ css
 /* ici c'est pour la disposition des deux chambres simple et vip*/
 .chambres{
     display: flex;
-    padding: 20px;
-    justify-content:space-around;
-    gap: 20px;
+    padding: 15px;
+    justify-content:space-evenly;
+    gap: 15px;
     flex-wrap: wrap;
     align-items: center;
     text-align: center;
 }
 /*ici c'est pour reduire la taille de l'image*/
 .chambres img {
-    width:120%;
+    width:119%;
     height: 200px;
     object-fit: cover;
     border-radius: 10px;
@@ -179,22 +194,28 @@ h2{
     font-size: 0.95rem;
     color: #555;
 }
+
+/*ici c'est pour donner la forme au formulaire*/
 form{
     display: block;
-    margin: 60px auto;
-    border: 2px solid #000;
+    margin: 40px auto;
+    border: 2px solid white;
     padding: 15px;
-    width: 350px;
-    background-color: white;
+    width: 340px;
+    /*background-color: white;*/
     border-radius: 8px;
     font-family: Arial, Helvetica, sans-serif;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
+
+/*ici c'est pour donne la forme aux label qui se trouve dans notre formulaire*/
 form label{
     display: block;
     margin-top: 5px;
     font-weight: bold;
 }
+
+/*ici c'est pour donner la forme dans le mot envoyer qui se trouve dans le formulaire*/
 form input[type="submit"]{
     font-size: 20px;
     color: white;
@@ -209,6 +230,13 @@ form input[type="submit"]{
 }
 form input{
     background-color: #e2e0e0;
+}
+
+.reserve{
+    background-image: url(./image/pexels-anna-zanovelli-bacci-1998392651-29010924.jpg);
+    background-size: cover;
+    background-position: center;
+    right: 300px;
 }
 
 /* ici c'est pour donner la forme au titre qui se trouve dans notre footer ex: adresse et contact*/
