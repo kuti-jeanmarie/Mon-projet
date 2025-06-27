@@ -50,8 +50,9 @@ css
   background-color:rgb(160, 154, 154);
 }
 
-@media (max-width: 768px) {
-  .nav-links {
+/*responsive cad dans le petit écrat navabr prend la forme ...*/
+@media (max-width: 785px) {
+  .nav-links{
     display: none;
     flex-direction: column;
     border: 1px solid #333;
