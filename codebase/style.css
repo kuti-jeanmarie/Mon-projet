@@ -113,19 +113,8 @@ css
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
-    animation: bgZoom 20s infinite alternate;
 }
 
-
-/* l'animation pour le zoom d'image d'accueil*/
-@keyframes bgZoom {
-    0% {
-        background-size: 100%;
-    }
-    100% {
-        background-size: 110%;
-    }
-}
 #apropos{
     margin: 0;
     padding: 1px 10px;
@@ -208,7 +197,7 @@ form{
     margin: 40px auto;
     border: 2px solid white;
     padding: 15px;
-    width: 350px;
+    width: 333px;
     border-radius: 8px;
     font-family: Arial, Helvetica, sans-serif;
     box-shadow: 0 0 20px rgba(83, 83, 83, 0.1);
@@ -239,7 +228,7 @@ form input{
     font-size: 20px;
     border-radius: 5px;
 }
-
+/*l'image de l'arriere plan de reservation*/
 .reserve{
     background-image: url(./image/pexels-anna-zanovelli-bacci-1998392651-29010924.jpg);
     background-size: cover;
