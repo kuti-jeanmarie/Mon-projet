@@ -6,7 +6,7 @@ css
 }
 /* ici c'est pour le logo qui se trouve dans notre page*/
 .logo{
-  font-size: 30px;
+  font-size: 25px;
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: rgb(255, 255, 255);
 }
@@ -136,7 +136,7 @@ css
 }
 /*ici c'est pour reduire la taille de l'image*/
 .chambres img {
-    width:119%;
+    width:117%;
     height: 200px;
     object-fit: cover;
     border-radius: 10px;
@@ -149,7 +149,7 @@ css
 
 /* ici c'est pour notre le titre (equipement) */
 h2{
-    font-size: 2.2rem;
+    font-size: 2.0rem;
     font-family:Georgia, 'Times New Roman', Times, serif;
     text-align: center;
 }
