@@ -116,11 +116,13 @@ css
     height: 100vh;
 }
 
+/*ici c'est pour l'arriere plan de notre A propos*/
 #apropos{
     margin: 0;
     padding: 1px 10px;
     background-color:#f8f8f8 ;
 }
+/* font-size de l'Apropos*/
 #apropos p {
     font-size: 20px;
 }
@@ -129,23 +131,24 @@ css
 .chambres{
     display: flex;
     padding: 15px;
-    justify-content:space-evenly;
-    gap: 15px;
+    justify-content: center;
+    gap: 20px;
     flex-wrap: wrap;
     align-items: center;
     text-align: center;
 }
-/*ici c'est pour reduire la taille de l'image*/
-.chambres img {
-    width:117%;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 10px;
-    text-align: center;
+/* ici c'est pour l'encadrement de la chambre */
+.chambre{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
 }
-/* ici c'est pour permettre a notre images de faire le mouvement*/
-.chambre:hover{
-    transform: translateY(-5px);
+/*ici c'est pour reduire la taille de l'image*/
+.chambre img {
+    width:100%;
+    height: 230px;
+    object-fit: cover;
+    text-align: center;
+    display: block;
 }
 
 /* ici c'est pour notre le titre (equipement) */
