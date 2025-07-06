@@ -44,9 +44,10 @@ css
 
 .menu-toggle {
   display: none;
-  font-size: 30px;
+  font-size: 25px;
   cursor: pointer;
-  border-radius: 100%;
+  border-radius: 5px;
+  border: 1px  solid white;
   /*background-color:rgb(160, 154, 154);*/
 }
 .menu-toggle:hover {
@@ -243,7 +244,7 @@ form{
     width: 333px;
     border-radius: 8px;
     font-family: Arial, Helvetica, sans-serif;
-    box-shadow: 0 0 20px rgba(83, 83, 83, 0.1);
+    /*box-shadow: 0 0 20px rgba(83, 83, 83, 0.1);*/
 }
 
 /*ici c'est pour donne la forme aux label qui se trouve dans notre formulaire*/
@@ -254,7 +255,8 @@ form label{
 }
 
 /*ici c'est pour donner la forme dans le mot envoyer qui se trouve dans le formulaire*/
-form input[type="submit"]{
+form input[type="submit"],
+    input[type="reset"]{
     font-size: 20px;
     color: white;
     text-align: center;
@@ -266,10 +268,25 @@ form input[type="submit"]{
     margin-right: auto;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-form input{
-    background-color: #e2e0e0;
-    font-size: 20px;
+input[type="submit"],input[type="reset"]:hover {
+    border: 2px solid rgb(150, 147, 147);
+
+}
+
+form input[type="nom"],
+form input[type="mail"],
+form input[type="telephone"],
+form input[type="date"],
+form input[type="number"],
+form select {
+    width: 100%;
+    padding: 5px ;
+    margin-top: 5px 10px;
+    border: ;
     border-radius: 5px;
+    /*background-color: none;*/
+    background-color: rgb(221, 221, 221);
+    font-size: 20px;
 }
 /*l'image de l'arriere plan de reservation*/
 .reserve{
