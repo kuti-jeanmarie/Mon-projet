@@ -304,7 +304,7 @@ footer h4{
 footer{
     background-color: rgb(87, 74, 74);
     color: #cac9c9;
-    border-radius: 2px;
+    border-radius: 4px;
 }
 
 /* ici c'est pour les phrases qui se trouve dans le footer ex: commune,quartier,numero,mail...*/
