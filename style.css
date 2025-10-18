@@ -39,7 +39,7 @@ css
 .nav-links a:hover{
     background-color: rgb(168, 168, 168);
     padding: 3px 5px;
-    border-radius: 5px;
+    border-radius: 6px;
 }
 
 .menu-toggle {
