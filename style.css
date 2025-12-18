@@ -13,7 +13,7 @@ css
 
 /*ici c'est pour le navbar (liste)*/
 .navbar {
-  background-color: #333;
+  background-color:  rgb(15, 18, 28);
   color: #fff;
   display: flex;
   justify-content: space-between;
@@ -130,7 +130,8 @@ css
 #apropos{
     margin: 0;
     padding: 1px 10px;
-    background-color:#f8f8f8 ;
+    background-color:#243153 ;
+    color: white;
 }
 /* font-size de l'Apropos*/
 #apropos p {
@@ -176,7 +177,7 @@ css
 }
 /* ici c'est pour l'encadrement de la chambre */
 .chambre{
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
     border-radius: 5px;
 }
 /*ici c'est pour reduire la taille de l'image*/
@@ -186,6 +187,13 @@ css
     object-fit: cover;
     text-align: center;
     display: block;
+}
+
+#chambre{
+    margin: 0;
+    padding: 1px 10px;
+    background-color:#ffffff ;
+    color: rgb(0, 0, 0);
 }
 
 /* ici c'est pour notre le titre (equipement) */
@@ -302,8 +310,8 @@ footer h4{
 }
 /* ici c'est pour la couleur blanche que nos ecrits porte et L'encadrement noir*/
 footer{
-    background-color: rgb(87, 74, 74);
-    color: #cac9c9;
+    background-color: rgb(15, 18, 28);
+    color: #ffffff;
     border-radius: 4px;
 }
 
