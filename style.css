@@ -37,7 +37,7 @@ css
 }
 /*ici c'est pour le style quand vous etes au dessus d'une liste et tu veux cliquer*/
 .nav-links a:hover{
-    background-color: rgb(168, 168, 168);
+    text-decoration:overline;
     padding: 3px 5px;
     border-radius: 6px;
 }
@@ -244,7 +244,8 @@ h2{
 form{
     display: block;
     margin: 40px auto;
-    border: 2px solid white;
+    /*border: 2px solid white;*/
+    box-shadow: 0 0 10px rgb(255, 252, 252);
     padding: 15px;
     width: 333px;
     border-radius: 9px;
@@ -288,7 +289,7 @@ form select {
     padding: 5px ;
     margin-top: 5px 10px;
     border: ;
-    border-radius: 5px;
+    border-radius:;
     /*background-color: none;*/
     background-color: rgb(221, 221, 221);
     font-size: 20px;
@@ -337,7 +338,7 @@ footer p{
     padding: 0%;
     margin-left: 10PX;
     width: 40px;
-    border-radius: 5px;
+    border-radius: 50px;
     
 
 }
