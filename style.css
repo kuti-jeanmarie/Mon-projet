@@ -288,8 +288,8 @@ form select {
     width: 100%;
     padding: 5px ;
     margin-top: 5px 10px;
-    border: ;
-    border-radius:;
+    border: 1px;
+    border-radius:1px;
     /*background-color: none;*/
     background-color: rgb(221, 221, 221);
     font-size: 20px;
