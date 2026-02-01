@@ -177,7 +177,7 @@ css
 }
 /* ici c'est pour l'encadrement de la chambre */
 .chambre{
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 10px rgba(90, 86, 86, 0.112);
     border-radius: 5px;
 }
 /*ici c'est pour reduire la taille de l'image*/
@@ -279,9 +279,9 @@ input[type="submit"],input[type="reset"]:hover {
 
 }
 
-form input[type="nom"],
-form input[type="mail"],
-form input[type="telephone"],
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
 form input[type="date"],
 form input[type="number"],
 form select {
@@ -327,7 +327,7 @@ footer p{
 .audios{
     display: flex;
     justify-content:center;
-    margin-left: 5%;
+    gap: 10px;
     align-items: center;
     background-position: center;
 
@@ -336,7 +336,7 @@ footer p{
 .audio img{
     margin: 0%;
     padding: 0%;
-    margin-left: 10PX;
+    /*margin-left: 10PX;*/
     width: 40px;
     border-radius: 50px;
     
